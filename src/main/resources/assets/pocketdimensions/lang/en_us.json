@@ -1,0 +1,14 @@
+{
+  "item.pocketdimensions.pocket_key": "Pocket Key",
+  "item.pocketdimensions.pocket_key.desc": "Shift+Right Click for Settings. Right Click to enter/exit your sanctuary.",
+  "block.pocketdimensions.pocket_keystone": "Pocket Keystone",
+  "itemGroup.pocketdimensions_tab": "Pocket Dimensions",
+  "gui.pocketdimensions.title": "Pocket Dimension Settings",
+  "message.pocketdimensions.recharging": "The Pocket Key is recharging! (%d seconds remaining)",
+  "message.pocketdimensions.entering": "Entering your personal Pocket Dimension...",
+  "message.pocketdimensions.leaving": "Exiting Pocket Dimension...",
+  "message.pocketdimensions.void_fall": "You slipped into the void and drifted safely back home.",
+  "message.pocketdimensions.boundary": "You have reached the boundary of this pocket dimension (3x3 chunks).",
+  "message.pocketdimensions.no_permission": "You do not have permission to enter this pocket dimension!",
+  "message.pocketdimensions.deleted": "Your Pocket Dimension has been permanently deleted."
+}

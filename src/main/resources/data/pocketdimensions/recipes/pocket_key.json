@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ENE",
+    "NSN",
+    "ENE"
+  ],
+  "key": {
+    "S": { "item": "minecraft:nether_star" },
+    "E": { "item": "minecraft:echo_shard" },
+    "N": { "item": "minecraft:netherite_scrap" }
+  },
+  "result": {
+    "item": "pocketdimensions:pocket_key",
+    "count": 1
+  }
+}
