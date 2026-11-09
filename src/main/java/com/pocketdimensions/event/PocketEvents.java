@@ -29,7 +29,7 @@ public class PocketEvents {
 
     @SubscribeEvent
     public static void onSpawnCheck(MobSpawnEvent.PositionCheck e) {
-        if (e.getLevel() != null && e.getLevel().getLevel() instanceof ServerLevel sl && sl.dimension().equals(ModDimensions.POCKET_LEVEL)) {
+        if (e.getLevel() instanceof ServerLevel sl && sl.dimension().equals(ModDimensions.POCKET_LEVEL)) {
             MobSpawnType t = e.getSpawnType();
             if (t == MobSpawnType.NATURAL || t == MobSpawnType.CHUNK_GENERATION ||
                 t == MobSpawnType.SPAWNER || t == MobSpawnType.STRUCTURE ||
@@ -42,7 +42,7 @@ public class PocketEvents {
 
     @SubscribeEvent
     public static void onFinalize(MobSpawnEvent.FinalizeSpawn e) {
-        if (e.getLevel() != null && e.getLevel().getLevel() instanceof ServerLevel sl && sl.dimension().equals(ModDimensions.POCKET_LEVEL)) {
+        if (e.getLevel() instanceof ServerLevel sl && sl.dimension().equals(ModDimensions.POCKET_LEVEL)) {
             MobSpawnType t = e.getSpawnType();
             if (t == MobSpawnType.NATURAL || t == MobSpawnType.CHUNK_GENERATION ||
                 t == MobSpawnType.SPAWNER || t == MobSpawnType.STRUCTURE ||

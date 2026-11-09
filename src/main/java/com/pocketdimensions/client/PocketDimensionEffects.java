@@ -9,12 +9,12 @@ public class PocketDimensionEffects extends DimensionSpecialEffects {
     }
 
     @Override
-    public Vec3 getBrightnessDependentFogColor(Vec3 fog, float b) {
+    public Vec3 getBrightnessDependentFogColor(Vec3 fog, float brightness) {
         return fog;
     }
 
     @Override
-    public boolean isSunriseOrSunset(float t) {
+    public boolean isFoggyAt(int x, int y) {
         return false;
     }
 }
